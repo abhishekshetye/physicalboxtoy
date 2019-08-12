@@ -30,7 +30,7 @@ public class CameraMovement : MonoBehaviour
 		 
 		forw.x = player.transform.position.x + offsetX;
 		forw.z = player.transform.position.z + offsetZ;
-		forw.y = 4.48f;
+		forw.y = 10.46f;
 
 		//now append to global position, because forw is a unit vector, multiplying by translateZ makes the vector length = to translateZ
 		transform.position = forw; // * speed * -1;
